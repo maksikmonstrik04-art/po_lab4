@@ -1,0 +1,18 @@
+VAR
+	coil_powered : BOOL := FALSE;
+	AxisX_DrvIf : SdcDrvIf16_typ := (0);
+	AxisX_EncIf : SdcEncIf16_typ := (0);
+	AxisX_DiDoIf : SdcDiDoIf_typ := (0);
+	AxisX_HW : SdcHwCfg_typ := (0);
+	AxisY_DrvIf : SdcDrvIf16_typ := (0);
+	AxisY_EncIf : SdcEncIf16_typ := (0);
+	AxisY_DiDoIf : SdcDiDoIf_typ := (0);
+	AxisY_HW : SdcHwCfg_typ := (0);
+	AxisZ_DrvIf : SdcDrvIf16_typ := (0);
+	AxisZ_EncIf : SdcEncIf16_typ := (0);
+	AxisZ_DiDoIf : SdcDiDoIf_typ := (0);
+	AxisZ_HW : SdcHwCfg_typ := (0);
+	fb_regulator : FB_Regulator;
+	iPosHwEnd : BOOL := FALSE;
+	iNegHwEnd : BOOL := FALSE;
+END_VAR

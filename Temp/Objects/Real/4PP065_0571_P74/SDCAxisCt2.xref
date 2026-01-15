@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Crossref Scope="SDCAxisCtrl_Z" AppMod="">
+  <Vars>
+    <Var Name="AxisZ_HW.EncIf1_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="13" C="10" A="W" PS=" Ln:13, Col:10" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_HW.DiDoIf_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="14" C="10" A="W" PS=" Ln:14, Col:10" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_HW.DrvIf_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="15" C="10" A="W" PS=" Ln:15, Col:10" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_HW.EncIf1_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="17" C="17" A="RW" PS=" Ln:17, Col:17" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_HW.DrvIf_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="18" C="17" A="RW" PS=" Ln:18, Col:17" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_HW.DiDoIf_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="19" C="17" A="RW" PS=" Ln:19, Col:17" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_EncIf.iEncOK" Scope="Global" Type="SdcEncIf16_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="21" C="13" A="W" PS=" Ln:21, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_DrvIf.iDrvOK" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="22" C="13" A="W" PS=" Ln:22, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_DrvIf.iStatusEnable" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="23" C="13" A="W" PS=" Ln:23, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_DiDoIf.iDriveReady" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="24" C="14" A="W" PS=" Ln:24, Col:14" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="57" C="17" A="RW" PS=" Ln:57, Col:17" />
+        <Pos L="76" C="18" A="RW" PS=" Ln:76, Col:18" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.dt" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="26" C="14" A="W" PS=" Ln:26, Col:14" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.k_i" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="27" C="14" A="W" PS=" Ln:27, Col:14" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.k_p" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="28" C="14" A="W" PS=" Ln:28, Col:14" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.max_abc_value" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="29" C="14" A="W" PS=" Ln:29, Col:14" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt2.pwm_period" Scope="Local" Type="UINT">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="31" C="2" A="W" PS=" Ln:31, Col:2" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt2.posEnable.enable" Scope="Local" Type="Pos">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="36" C="15" A="R" PS=" Ln:36, Col:15" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_DrvIf.oSetPos" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="38" C="14" A="W" PS=" Ln:38, Col:14" />
+        <Pos L="42" C="14" A="W" PS=" Ln:42, Col:14" />
+        <Pos L="75" C="33" A="R" PS=" Ln:75, Col:33" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt2.posEnableRight.enable" Scope="Local" Type="Pos">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="40" C="25" A="R" PS=" Ln:40, Col:25" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_EncIf.iActTime" Scope="Global" Type="SdcEncIf16_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="46" C="13" A="W" PS=" Ln:46, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_DiDoIf.iPosHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="48" C="14" A="W" PS=" Ln:48, Col:14" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt2.axis_Z" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="60" C="12" A="RW" PS=" Ln:60, Col:12" />
+        <Pos L="67" C="13" A="RW" PS=" Ln:67, Col:13" />
+        <Pos L="73" C="13" A="RW" PS=" Ln:73, Col:13" />
+        <Pos L="79" C="13" A="RW" PS=" Ln:79, Col:13" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt2.axis_Z.endswitch_a_reached" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="48" C="33" A="R" PS=" Ln:48, Col:33" />
+        <Pos L="71" C="22" A="R" PS=" Ln:71, Col:22" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_DiDoIf.iNegHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="49" C="14" A="W" PS=" Ln:49, Col:14" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt2.axis_Z.endswitch_b_reached" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="49" C="33" A="R" PS=" Ln:49, Col:33" />
+        <Pos L="72" C="22" A="R" PS=" Ln:72, Col:22" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt2.coil_powered" Scope="Local" Type="BOOL">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="52" C="6" A="R" PS=" Ln:52, Col:6" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt2.coil_pwm_value" Scope="Local" Type="INT">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="54" C="3" A="W" PS=" Ln:54, Col:3" />
+        <Pos L="69" C="4" A="W" PS=" Ln:69, Col:4" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.e" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="56" C="15" A="W" PS=" Ln:56, Col:15" />
+        <Pos L="75" C="16" A="W" PS=" Ln:75, Col:16" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt2.axis_Z.u" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="59" C="9" A="W" PS=" Ln:59, Col:9" />
+        <Pos L="78" C="10" A="W" PS=" Ln:78, Col:10" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt2.axis_Z.reset_counter" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="66" C="10" A="W" PS=" Ln:66, Col:10" />
+      </File>
+    </Var>
+    <Var Name="iPosHwEnd" Scope="Global" Type="BOOL">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="71" C="4" A="W" PS=" Ln:71, Col:4" />
+      </File>
+    </Var>
+    <Var Name="iNegHwEnd" Scope="Global" Type="BOOL">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="72" C="4" A="W" PS=" Ln:72, Col:4" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCt2.axis_Z.speed" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="75" C="56" A="R" PS=" Ln:75, Col:56" />
+      </File>
+    </Var>
+    <Var Name="fb_regulator.u" Scope="Global" Type="FB_Regulator">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="78" C="27" A="R" PS=" Ln:78, Col:27" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_EncIf.iLifeCnt" Scope="Global" Type="SdcEncIf16_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="86" C="13" A="W" PS=" Ln:86, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_DiDoIf.iLifeCntDriveEnable" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="88" C="14" A="W" PS=" Ln:88, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_DiDoIf.iLifeCntDriveReady" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="89" C="14" A="W" PS=" Ln:89, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_DiDoIf.iLifeCntNegHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="90" C="14" A="W" PS=" Ln:90, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_DiDoIf.iLifeCntPosHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="91" C="14" A="W" PS=" Ln:91, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_DiDoIf.iLifeCntReference" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="92" C="14" A="W" PS=" Ln:92, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisZ_DrvIf.iLifeCnt" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="94" C="13" A="W" PS=" Ln:94, Col:13" />
+      </File>
+    </Var>
+  </Vars>
+  <Consts>
+    <Const Name="ncSDC_ENC16" Scope="Global" Type="UINT">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="13" C="24" A="R" PS=" Ln:13, Col:24" />
+      </File>
+    </Const>
+    <Const Name="ncSDC_DRVSERVO16" Scope="Global" Type="UINT">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="15" C="24" A="R" PS=" Ln:15, Col:24" />
+      </File>
+    </Const>
+    <Const Name="ncSDC_DIDO" Scope="Global" Type="UINT">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="14" C="24" A="R" PS=" Ln:14, Col:24" />
+      </File>
+    </Const>
+  </Consts>
+  <Funcs>
+    <Func Name="AsIOTimeCyclicStart" Lib="">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="46" C="30" PS=" Ln:46, Col:30" />
+      </File>
+    </Func>
+    <Func Name="FB_Regulator" Lib="">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="57" C="3" PS=" Ln:57, Col:3" />
+        <Pos L="76" C="4" PS=" Ln:76, Col:4" />
+      </File>
+    </Func>
+    <Func Name="FB_Axis" Lib="">
+      <File Name="C:/Users/admin/Desktop/Donor2/Donor/Logical/SDCAxisCtrl_Z/Main.c">
+        <Pos L="60" C="3" PS=" Ln:60, Col:3" />
+        <Pos L="67" C="4" PS=" Ln:67, Col:4" />
+        <Pos L="73" C="4" PS=" Ln:73, Col:4" />
+        <Pos L="79" C="4" PS=" Ln:79, Col:4" />
+      </File>
+    </Func>
+  </Funcs>
+</Crossref>

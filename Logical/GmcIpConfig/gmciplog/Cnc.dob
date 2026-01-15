@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.5.2.102?>
+<DataObject Version="3.13.0" SubType="Cnc" xmlns="http://br-automation.co.at/AS/DataObject">
+  <Files>
+    <File>gmciplog.cnc</File>
+  </Files>
+</DataObject>

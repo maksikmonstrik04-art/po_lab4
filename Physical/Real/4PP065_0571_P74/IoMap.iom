@@ -1,0 +1,20 @@
+VAR_CONFIG
+	::SDCAxisCtr:pwm_period AT %QW."X20MM4456".PeriodDurationPWM;
+	::SDCAxisCtr:coil_pwm_value AT %QW."X20MM4456".PulseWidthCurrentPWM04;
+	::SDCAxisCtr:axis_X.pwm_value AT %QW."X20MM4456".PulseWidthCurrentPWM01;
+	::SDCAxisCtr:axis_X.reset_error AT %QX."X20MM4456".ClearError01;
+	::SDCAxisCtr:axis_X.reset_counter AT %QX."X20MM4456".ResetCounter01;
+	::AxisX_EncIf.iActPos AT %IW."X20MM4456".Counter01;
+	::coil_powered AT %IX."X20DI9371".DigitalInput01;
+	::AxisX_DiDoIf.iPosHwEnd AT %IX."X20MM4456".StatusInput03;
+	::AxisX_DiDoIf.iNegHwEnd AT %IX."X20MM4456".StatusInput04;
+	::SDCAxisCt1:posEnable.enable AT %IX."X20DI9371".DigitalInput02; (*Insert your comment here...*)
+	::SDCAxisCt1:posEnableRight.enable AT %IX."X20DI9371".DigitalInput03; (*Insert your comment here...*)
+	::SDCAxisCt1:axis_Y.pwm_value AT %QW."X20MM4456".PulseWidthCurrentPWM02;
+	::SDCAxisCt2:axis_Z.pwm_value AT %QW."X20MM4456".PulseWidthCurrentPWM03;
+	::SDCAxisCt2:axis_Z.reset_counter AT %QX."X20MM4456".ResetCounter03;
+	::AxisY_DiDoIf.iPosHwEnd  AT %IX."X20MM4456".StatusInput07;
+	::AxisY_DiDoIf.iNegHwEnd  AT %IX."X20MM4456".StatusInput08;
+	::AxisZ_DiDoIf.iNegHwEnd  AT %IX."X20MM4456".StatusInput12;
+	::AxisZ_DiDoIf.iPosHwEnd  AT %IX."X20MM4456".StatusInput11;
+END_VAR
